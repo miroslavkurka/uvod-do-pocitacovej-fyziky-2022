@@ -4,7 +4,7 @@
 #
 
 
-def calculate_probability(my_text):
+def calculate_probability_of_words(my_text):
     # get the probability, P(word)= N of word/all words in text
     text_dict={}
     with open(my_text) as f:
